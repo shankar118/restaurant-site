@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 25px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+/* this is home page styling */
+
+.header{
+  height: 100vh;
+  width:100% ;
+  padding: 0 8%;
+  background: #080008;
+  position: relative;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  width: 100spx;
+}
+.nav-links{
+  padding: 28px 0;
+}
+.nav-links{
+  display: inline-block;
+  margin: 0 15px;
+}
+.nav-links a{
+text-decoration: none;
+color:#fff;
+padding: 5px 0;
+}
